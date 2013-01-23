@@ -3,7 +3,7 @@ import com.srmvision.wicket.groovy.dsl.builder.ColumnBuilder
 def builder = new ColumnBuilder()
 
 def userColumns = new UserColumns().settings {
-    column (["wondelle", "itemName","currentDate", "actions"])
+    column (["firstColumn", "itemName","currentDate", "actions"])
     sort  "currentDate", false
 }
 
